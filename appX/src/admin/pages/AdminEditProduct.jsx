@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { useNavigate, useParams } from "react-router-dom";
-import { motion, AnimatePresence } from "framer-motion";
+import {  AnimatePresence } from "framer-motion";
 import { adminAPI } from "../../api/axios";
 import {
   Upload, X, Loader2, Check, AlertCircle, ArrowLeft,
